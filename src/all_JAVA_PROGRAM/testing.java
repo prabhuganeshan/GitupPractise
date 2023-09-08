@@ -11,13 +11,17 @@ public class Amstrong {
 			res=res+(rem*rem*rem);
 			a=a/10;
 		}
-		System.out.println(res);
-		if(num==res) {
+
+		System.out.println("confilcts");
+		System.out.println(res);if(num==res) {
 			System.out.println("amstrong");
 		}
 		else {
 			System.out.println("not amstrang");
 		}
+
+
+
 	}
 
 }
